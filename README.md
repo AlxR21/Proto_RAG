@@ -71,5 +71,5 @@ These settings are currently defined directly in `indexing.js` and `query.js`.
 
 - **Missing API key:** Confirm `.env` is in the project root and run the scripts with `--env-file=.env`.
 - **Cannot connect to Qdrant:** Check that `docker compose up -d` completed and that port `6333` is available.
-- **PDF not found:** Confirm `the-time-machine.pdf` exists in the project root, or change the path in `indexing.js`.
+- **PDF not found:** You would need to provide a `.pdf` file. Any file will do. Check the path of the file before running the **`indexing`** program. 
 - **No indexed content:** Run the indexing command successfully before querying.
