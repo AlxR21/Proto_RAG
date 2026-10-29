@@ -26,4 +26,4 @@ async function generateVectorEmbeddingsForFile(filepath){
     
 }
 
-generateVectorEmbeddingsForFile("./the-time-machine.pdf");
+generateVectorEmbeddingsForFile(<filepath>);
